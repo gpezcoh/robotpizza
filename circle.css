@@ -1,0 +1,44 @@
+.point{
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: red;
+	position: absolute;
+}
+
+.circle{
+	position: absolute;
+}
+
+.line{
+	position: absolute;
+	border-top: 1px solid red;
+}
+
+.myCanvas{
+	position: absolute;
+}
+
+#results{
+	position: absolute;
+	left: 500px;
+	top:100px;
+}
+
+td{
+	border-bottom: solid black 2px;
+}
+
+#running{
+	position: absolute;
+	left: 500px;
+	top:50px;
+	display: none;
+}
+
+#warning{
+	position: absolute;
+	left: 500px;
+	top:50px;
+	display: none;
+}

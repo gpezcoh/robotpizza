@@ -1,0 +1,30 @@
+<body>
+	<link rel=StyleSheet href="circle.css" type="text/css">
+<!-- 	<svg class="circle" xmlns="http://www.w3.org/2000/svg" width="300" height="500">
+	    <circle cx="200" cy="300" r="100" fill="none" stroke="black" />
+	</svg> -->
+	<span>
+		<canvas id="myCanvas" width="400" height="400" style="border:1px solid #d3d3d3;"></canvas>
+		<p id="running"> RUNNING *BEEP *BOOP *BEEP</p>
+		<p id="warning"> Whoa there cowboy, anything over 100k is slower than it's worth</p>
+		<table id="results">
+			<tr>
+				<td>Sections</td>
+				<td>Frequency</td>
+				<td>Percent</td>
+			</tr>
+		</table>
+	</span>
+	<div>
+		<button onclick="preRun()">Run</button>
+		<button onclick="restart()">Clear</button>
+	</div>
+	<div>
+		<p> Number of iterations <input type="text" id="iterations" value="1"></input></p>
+	</div>
+	<div>
+		<p> Number of slices <input type="text" id="slices" value="3"></input></p>
+	</div>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="circle.js"></script>
+</body>
